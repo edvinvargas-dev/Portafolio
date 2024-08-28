@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.nombre{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+.textoInformacion{
+    font-family: 'Times New Roman', Times, serif;
+}
+.tituloCentral{
+    text-align: center;
+    padding: 2%;
+}
+nav li{
+    display: inline-block;
+}
+.lista{
+    list-style-type: none;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+
+}
+li{
+    padding: 0 15px;
+}
+.navegacion{
+    border-top: 2px solid rgba(3, 3, 3, .1);
+    border-bottom: 2px solid rgba(3, 3, 3, .1);
+}
+li:hover{
+    color: rgb(178, 174, 174)
+}
+
+#texto-Contenido{
+    padding-top: 50px;
+    text-align: center;
+    display:flex;
+}

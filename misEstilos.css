@@ -41,3 +41,41 @@ li:hover{
     text-align: center;
     display:flex;
 }
+
+.contenedor-proyectos{
+    display: flex; /*hace que los contenedores sean flexibles*/
+    flex-wrap: wrap; /*hace que los elementos internos salten a otra linea*/
+    justify-content: center; /*centra el contenido de forma horizontal y distribuye el espacio de forma igualitaria*/
+    gap: 2rem; /*crea un espacio interno entre cada item, tanto en filas como columnas */
+    margin: 2rem auto; /*aplica un margen vertical, y un margen horizontal auto*/
+    max-width: 1000px; /*limita el ancho del la cantidad de px, para que no se expanda mas de lo indicado*/
+}
+.tarjeta-proyectos{
+    width: 300px;
+    background: #f5f5f5;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px;
+    text-align: center;
+}
+.tarjeta-proyectos img{
+    width: 100%;
+    height: auto;
+}
+.tarjeta-proyectos h3{
+    margin: 3rem 0;
+}
+.tarjeta-proyectos p{
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+.btn{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+}
